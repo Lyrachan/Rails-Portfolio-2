@@ -14,7 +14,7 @@
           <div class="col-md-4">
             <%= image_tag 'rumia2.gif', class: 'card_img' %>
           </div>
-          <div class="col-md-8 mb-5">
+          <div class="col-md-6 mb-5">
             <div class="card-body">
               <h5 class="card-title">(La imagen es referencial)</h5>
               <p class="card-text">Desarrollador de aplicaciones Ruby en formación, haciendo empleo del framework Rails para establecer funcionamiento full-stack de sitios web.</p>
@@ -29,22 +29,52 @@
   
       <!-- Sign Start -->
   
-      <div class="container my-4 py-4 ">
-        <h2 class="fw-bold">Trabajos anteriores/Previous works</h2>
+      <div class="container mt-5 py-2 ">
+        <h2 class="fw-bold">Algunos trabajos anteriores</h2>
       </div>
   
       <!-- Sign End -->
   
       <!-- Card Desafíos Start -->
   
-      <div class="card my-5" style="width: 18rem;">
-        <%= image_tag 'iguanapage.png', class: 'iguana_img' %>
-        <div class="card-body">
-          <h5 class="card-title">Iguana Page</h5>
-          <p class="card-text">Desafío consistente en recrear una página web empleando HTML y CSS </p>
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+            <div class="card my-5" style="width: 18rem;">
+                <%= image_tag 'suricata.png', class: 'suricata' %>
+                <div class="card-body">
+                  <h5 class="card-title">Suricata</h5>
+                  <p class="card-text">Desafío consistente en recrear una página web empleando HTML y CSS Bootstrap.</p>
+                  <a href="https://lyrachan.github.io/Desafio-Suricata/" class="btn btn-primary">Ver página</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="card my-5" style="width: 18rem;">
+                <%= image_tag 'ricomida.png', class: 'ricomida' %>
+                <div class="card-body">
+                  <h5 class="card-title">Ricomida</h5>
+                  <p class="card-text">Desafío consistente en recrear una página web empleando HTML, CSS Bootstrap y Javascript (JQuery).</p>
+                  <a href="https://lyrachan.github.io/Desafio-Evaluado-Ricomida/" class="btn btn-primary">Ver página</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-xs-12 col-md-4">
+            <div class="card my-5" style="width: 18rem;">
+                <%= image_tag 'viajeschile.png', class: 'viajeschile' %>
+                <div class="card-body">
+                  <h5 class="card-title">Viajes Chile</h5>
+                  <p class="card-text">Desafío consistente en recrear una página web empleando HTML, CSS Bootstrap y Javascript (JQuery).</p>
+                  <a href="https://lyrachan.github.io/Prueba-Viajes-Chile.Lyrachan.github.io/" class="btn btn-primary">Ver página</a>
+                </div>
+              </div>
         </div>
       </div>
   
       <!-- Card Desafíos End -->
+
+      <button type="button" class="btn btn-info mb-5"><%= link_to 'Ver más trabajos', projects_path, class: 'text-decoration text-white fs-5'  %></button>
+
 </body>
 </html>
