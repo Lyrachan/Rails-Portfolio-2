@@ -26,11 +26,24 @@
     
       <div class="row mt-5 mb-5">
         <div class="col-xs-6 col-md-6">
-            <%= image_tag 'telephone.gif', class: 'telephone_img' %>
+            <%= image_tag 'telephone.gif', class: 'telephone_img mt-5' %>
         </div>
         <div class="col-xs-6 col-md-6">
             <h1 class="fw-semibold my-4">Contacto</h1>
-            <p class="fw-semibold my-5">e-mail: jorge.liram9@gmail.com</p>
+            <p class="fw-semibold">Puedes contactarme directamente a mi correo:</p>
+            <p class="fw-semibold mb-3">e-mail: jorge.liram9@gmail.com</p>
+
+            <p> O puedes enviarme un mensaje, responderé a la brevedad.</p>
+
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@address.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mensaje:</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <a href="#" class="btn text-white" style="background-color: #FF1493;">Enviar</a>
         </div>
       </div>
 
